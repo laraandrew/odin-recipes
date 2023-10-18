@@ -1,12 +1,16 @@
 li {
     color: rgb(30, 125, 34);
     background-color: rebeccapurple;
-    opacity: .5;
+    opacity: .7;
     font-size: 22px;
     font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Times, 'Times New Roman', serif;
 }
 ul {
     list-style-type: none;
+    line-height: 1.5;
 }
 
 h1 {
@@ -15,15 +19,16 @@ h1 {
     color: salmon;
     font-family: Times, 'Times New Roman', serif;
     background-color: aquamarine;
-    opacity: .3;
+    opacity: .7;
 }
 
 .container img {
-    display: inline-block; /* Ensures the image behaves as an inline element */
+    text-align: center; /* Ensures the image behaves as an inline element */
   }
 
 img {
-    text-align: center;
+    display: block;
+    margin: 0 auto;
     box-shadow: 5px 5px 10px #888888;
     width: auto;
     height: 300px;
