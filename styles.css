@@ -1,0 +1,30 @@
+li {
+    color: rgb(30, 125, 34);
+    background-color: rebeccapurple;
+    opacity: .5;
+    font-size: 22px;
+    font-weight: 700;
+}
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    color: salmon;
+    font-family: Times, 'Times New Roman', serif;
+    background-color: aquamarine;
+    opacity: .3;
+}
+
+.container img {
+    display: inline-block; /* Ensures the image behaves as an inline element */
+  }
+
+img {
+    text-align: center;
+    box-shadow: 5px 5px 10px #888888;
+    width: auto;
+    height: 300px;
+}
