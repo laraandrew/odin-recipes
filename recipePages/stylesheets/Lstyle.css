@@ -36,3 +36,15 @@ button {
     text-transform: uppercase;
     transition: background-color 0.3s, box-shadow 0.3s;
 }
+
+.container img {
+    text-align: center; /* Ensures the image behaves as an inline element */
+  }
+
+img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #888888;
+    width: auto;
+    height: 300px;
+}
