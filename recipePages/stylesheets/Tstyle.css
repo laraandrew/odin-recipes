@@ -7,13 +7,13 @@
 .caption {
     font-size: 15px;
     text-align: center;
-    background-color: #7D7C84;
-    color: white;
+    background-color: #b0b8a0;
+    color: rgb(0, 0, 0);
 }
 
 h1{
     text-align: center;
-    color: rgb(138, 31, 10);
+    color: rgb(255, 255, 255);
     border: 2px;
     text-decoration: underline;
 }

@@ -11,6 +11,9 @@ li {
 ul {
     list-style-type: none;
     line-height: 1.5;
+    margin: 0 auto;
+    padding: 5px 0px;
+    width: 75%;
 }
 
 h1 {
@@ -19,12 +22,11 @@ h1 {
     color: black;
     font-family: Times, 'Times New Roman', serif;
     background-color: #A2ABAB;
+    margin: 0 auto;
+    padding: 10px 0px;
+    width: 50%;
     opacity: .7;
 }
-
-.container img {
-    text-align: center; /* Ensures the image behaves as an inline element */
-  }
 
 img {
     display: block;
@@ -32,4 +34,8 @@ img {
     box-shadow: 5px 5px 10px #888888;
     width: auto;
     height: 300px;
+}
+body {
+    background: radial-gradient(circle at center, #BBDFC5, #654F6F, #A8C69F);
+    background-color: #3494E6;
 }
